@@ -1,66 +1,58 @@
 const http = require('http');
 
-function calculatePi(digits) {
-    const size = Math.floor(digits * 10 / 3) + 1;
-    const numbers = new Array(size).fill(2);
-    
-    let result = '';
-    let nines = 0;
-    let predigit = 0;
+const PORT = 3000;
 
-    for (let j = 0; j < digits; j++) {
-        let q = 0;
+// Номер журнала.
+// Если преподаватель требует другое количество знаков,
+// поменяйте значение этой переменной.
+const JOURNAL_NUMBER = 12;
 
-        for (let i = size; i > 0; i--) {
-            const x = 10 * numbers[i - 1] + q * i;
-            const b = 2 * i - 1;
+// Вычисление числа Пи методом Лейбница.
+// Сторонние библиотеки для вычисления Пи не используются.
+function calculatePi(iterations) {
+    let pi = 0;
 
-            numbers[i - 1] = x % b;
-            q = Math.floor(x / b);
-        }
-
-        numbers[0] = q % 10;
-        q = Math.floor(q / 10);
-
-        if (q === 9) {
-            nines++;
-        } else if (q === 10) {
-            result += String(predigit + 1);
-
-            for (let k = 0; k < nines; k++) {
-                result += '0';
-            }
-
-            predigit = 0;
-            nines = 0;
-        } else {
-            result += String(predigit);
-
-            predigit = q;
-
-            for (let k = 0; k < nines; k++) {
-                result += '9';
-            }
-
-            nines = 0;
-        }
+    for (let i = 0; i < iterations; i++) {
+        pi += (i % 2 === 0 ? 1 : -1) / (2 * i + 1);
     }
 
-    result += String(predigit);
-    return result[0] + '.' + result.slice(1, digits + 1);
+    return pi * 4;
 }
 
-const pi = calculatePi(12); // Изменение здесь на 12
+const pi = calculatePi(10000000);
+
 const server = http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+    res.writeHead(200, {
+        'Content-Type': 'text/html; charset=utf-8'
+    });
+
     res.end(`
-        <1>Stas Minchyk</h1> <!--менение здесь на Stas Minchyk -->
-        <2>Группа: 401</h2>
-       h2>Число Пи: ${pi}</2>
+        <!DOCTYPE html>
+        <html lang="ru">
+        <head>
+            <meta charset="UTF-8">
+            <title>Лабораторная работа №11</title>
+        </head>
+        <body>
+            <h1>Лабораторная работа №11</h1>
+
+            <p><strong>ФИО:</strong> Минчук Станислав Игоревич</p>
+            <p><strong>Группа:</strong> 401</p>
+
+            <p>
+                <strong>Число Пи:</strong>
+                ${pi.toFixed(JOURNAL_NUMBER)}
+            </p>
+
+            <p>
+                Число Пи вычислено программно без использования
+                сторонних библиотек.
+            </p>
+        </body>
+        </html>
     `);
 });
 
-const PORT = 3000;
 server.listen(PORT, () => {
-    console.log(`Сервер запущен на http://localhost:${PORT}`); // Исправлено добавление символов
+    console.log(`Сервер запущен на http://localhost:${PORT}`);
 });
