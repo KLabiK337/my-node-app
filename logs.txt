@@ -1,0 +1,12 @@
+[2026-09-27T16:06:24.056Z] server:started: {"port":3000}
+[2026-09-27T16:06:34.070Z] server:stopped: {}
+[2026-09-27T16:07:12.731Z] server:started: {"port":3000}
+[2026-09-27T16:07:20.679Z] request:received: {"url":"/","method":"GET"}
+[2026-09-27T16:07:21.096Z] request:received: {"url":"/favicon.ico","method":"GET"}
+[2026-09-27T16:07:22.737Z] server:stopped: {}
+[2026-09-27T16:07:31.833Z] server:started: {"port":3000}
+[2026-09-27T16:07:37.356Z] request:received: {"url":"/test","method":"GET"}
+[2026-09-27T16:07:37.408Z] request:received: {"url":"/favicon.ico","method":"GET"}
+[2026-09-27T16:07:41.867Z] request:received: {"url":"/order/42","method":"GET"}
+[2026-09-27T16:07:41.892Z] request:received: {"url":"/favicon.ico","method":"GET"}
+[2026-09-27T16:07:47.898Z] server:stopped: {}
