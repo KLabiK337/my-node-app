@@ -1,0 +1,26 @@
+ОТЧЁТ СИНХРОНИЗАЦИИ
+Студент: Минчук Станислав Игоревич
+Группа: 401
+Вариант: 12
+Дата: 27.09.2026, 19:23:25
+
+Совпадают: 17
+Изменены: 10
+Добавлены: 0
+Удалены: 0
+
+Изменённые файлы:
+- file01.txt
+- file02.js
+- file03.json
+- folder1\folder1.js
+- folder1\folder1.txt
+- folder2\folder2.js
+- folder2\folder2.txt
+- folder3\folder3.js
+- folder3\folder3.txt
+- manifest.json
+
+Добавленные файлы:
+
+Удалённые файлы:

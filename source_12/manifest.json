@@ -1,0 +1,93 @@
+{
+    "variant": 12,
+    "student": "Минчук Станислав Игоревич",
+    "group": "401",
+    "created": "2026-09-27T16:23:25.844Z",
+    "files": [
+        {
+            "name": "file01.txt",
+            "size": 1000
+        },
+        {
+            "name": "file02.js",
+            "size": 1200
+        },
+        {
+            "name": "file03.json",
+            "size": 1400
+        },
+        {
+            "name": "file04.jpg",
+            "size": 5000
+        },
+        {
+            "name": "file05.png",
+            "size": 7000
+        },
+        {
+            "name": "file06.gif",
+            "size": 9000
+        },
+        {
+            "name": "file07.html",
+            "size": 1100
+        },
+        {
+            "name": "file08.css",
+            "size": 1300
+        },
+        {
+            "name": "file09.csv",
+            "size": 1500
+        },
+        {
+            "name": "file10.xml",
+            "size": 1700
+        },
+        {
+            "name": "file11.log",
+            "size": 1900
+        },
+        {
+            "name": "file12.dat",
+            "size": 2100
+        },
+        {
+            "name": "file13.md",
+            "size": 2300
+        },
+        {
+            "name": "file14.ini",
+            "size": 2500
+        },
+        {
+            "name": "file15.cfg",
+            "size": 2700
+        },
+        {
+            "name": "file16.bin",
+            "size": 3000
+        },
+        {
+            "name": "file17.svg",
+            "size": 3200
+        },
+        {
+            "name": "file18.conf",
+            "size": 3400
+        },
+        {
+            "name": "file19.tmp",
+            "size": 3600
+        },
+        {
+            "name": "file20.doc",
+            "size": 3800
+        }
+    ],
+    "folders": [
+        "folder1",
+        "folder2",
+        "folder3"
+    ]
+}
