@@ -1,0 +1,110 @@
+{
+    "variant": 12,
+    "student": "Минчук Станислав Игоревич",
+    "group": "401",
+    "date": "27.09.2026, 19:23:18",
+    "directory": ".",
+    "filter": [
+        ".js",
+        ".json",
+        ".txt",
+        ".md"
+    ],
+    "totalFolders": 58,
+    "totalFiles": 22,
+    "totalSizeBytes": 29636,
+    "totalSizeKB": 28.94,
+    "totalSizeMB": 0.03,
+    "filesByExtension": {
+        ".js": {
+            "count": 6,
+            "sizeBytes": 27871
+        },
+        ".json": {
+            "count": 1,
+            "sizeBytes": 247
+        },
+        ".txt": {
+            "count": 8,
+            "sizeBytes": 1114
+        },
+        ".md": {
+            "count": 7,
+            "sizeBytes": 404
+        }
+    },
+    "largestFiles": [
+        {
+            "name": "task5.js",
+            "path": "task5.js",
+            "relativePath": "task5.js",
+            "extension": ".js",
+            "size": 11250
+        },
+        {
+            "name": "task4.js",
+            "path": "task4.js",
+            "relativePath": "task4.js",
+            "extension": ".js",
+            "size": 4763
+        },
+        {
+            "name": "task3.js",
+            "path": "task3.js",
+            "relativePath": "task3.js",
+            "extension": ".js",
+            "size": 4531
+        },
+        {
+            "name": "task2.js",
+            "path": "task2.js",
+            "relativePath": "task2.js",
+            "extension": ".js",
+            "size": 3464
+        },
+        {
+            "name": "task1.js",
+            "path": "task1.js",
+            "relativePath": "task1.js",
+            "extension": ".js",
+            "size": 2093
+        }
+    ],
+    "smallestFiles": [
+        {
+            "name": "README.md",
+            "path": "project_12\\src\\README.md",
+            "relativePath": "project_12\\src\\README.md",
+            "extension": ".md",
+            "size": 55
+        },
+        {
+            "name": "README.md",
+            "path": "project_12\\data\\README.md",
+            "relativePath": "project_12\\data\\README.md",
+            "extension": ".md",
+            "size": 56
+        },
+        {
+            "name": "README.md",
+            "path": "project_12\\data\\input\\README.md",
+            "relativePath": "project_12\\data\\input\\README.md",
+            "extension": ".md",
+            "size": 57
+        },
+        {
+            "name": "README.md",
+            "path": "project_12\\src\\utils\\README.md",
+            "relativePath": "project_12\\src\\utils\\README.md",
+            "extension": ".md",
+            "size": 57
+        },
+        {
+            "name": "README.md",
+            "path": "project_12\\data\\results\\README.md",
+            "relativePath": "project_12\\data\\results\\README.md",
+            "extension": ".md",
+            "size": 58
+        }
+    ]
+}
