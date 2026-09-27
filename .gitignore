@@ -1,3 +1,5 @@
 node_modules/
 .env
-.DS_Store
+.DS_Store.env
+lab24.log
+lab24.log
