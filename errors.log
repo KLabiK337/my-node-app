@@ -1,0 +1,1 @@
+[2026-09-27T18:43:55.285Z] [ББМО-01-23] Ошибка pipeline: The "body" argument must be of type function or an instance of Blob, ReadableStream, WritableStream, Stream, Iterable, AsyncIterable, or Promise or { readable, writable } pair. Received an instance of Object
