@@ -19,5 +19,10 @@
     "commander": "^15.0.0",
     "inquirer": "^8.2.6",
     "ora": "^9.4.1"
+  "type": "commonjs",
+  "dependencies": {
+    "@koa/router": "^15.7.0",
+    "koa": "^3.2.1",
+    "koa-bodyparser": "^4.4.1"
   }
 }
