@@ -25,4 +25,7 @@
     "url": "https://github.com/KLabiK337/my-node-app/issues"
   },
   "homepage": "https://github.com/KLabiK337/my-node-app#readme"
+    "koa": "^3.2.1",
+    "koa-bodyparser": "^4.4.1"
+  }
 }
