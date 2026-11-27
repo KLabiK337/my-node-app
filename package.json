@@ -3,12 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
+  "bin": {
+    "my-cli": "./bin/cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "chalk": "^6.0.1",
+    "cli-progress": "^3.12.0",
+    "commander": "^15.0.0",
+    "inquirer": "^8.2.6",
+    "ora": "^9.4.1"
   "type": "commonjs",
   "dependencies": {
     "@koa/router": "^15.7.0",
